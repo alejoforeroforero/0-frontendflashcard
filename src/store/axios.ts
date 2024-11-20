@@ -1,7 +1,9 @@
 import axios from "axios";
 
-const baseURL = import.meta.env.VITE_BASE_URL_BACKEND;
-//const baseURL = 'http://localhost:8085/api/'
+//const baseURL = import.meta.env.VITE_BASE_URL_BACKEND;
+const baseURL = 'https://flashcards.bandwaggon.ai/api/'
+
+console.log(baseURL)
 
 const axiosInstance = axios.create({
   baseURL: `${baseURL}`,
